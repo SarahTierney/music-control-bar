@@ -46,7 +46,6 @@ body {
 
 .album {
   width: 10%;
-  display: block;
   left: 0;
   top: 0;
   position: absolute;
@@ -84,16 +83,15 @@ body {
 .time-lapsed {
   font-size: .7rem;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 3.5rem;
+  top: 1.5rem;
 }
 
 .time-total {
   font-size: .7rem;
   position: absolute;
-  right: 0;
-  bottom: 0;
-
+  right: 0.25rem;
+  top: 1.5rem;
 }
 
 .controls {
@@ -107,18 +105,19 @@ body {
 
 .control-shuffle {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 3.5rem;
+  top: .25rem;
 }
 
 .control-list {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0.25rem;
+  top: 0.25rem;
 }
 
 .control-heart {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 1.75rem;
+  top: 0.35rem;
+  position: absolute;
 }
